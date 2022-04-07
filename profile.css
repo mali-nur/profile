@@ -1,0 +1,44 @@
+div{
+    background-color: #F8F8F8;
+}
+.labels {
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile-button {
+    background-color: #940B0B;
+    border-radius: 30px;
+    width: 198px;
+    height: 42px;
+}
+
+.hero{
+  background-size: cover;
+  background-color: #940B0B;
+  background-position: center;
+}
+nav{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px ;
+  padding-left: 15%;
+  padding-right: 10%;
+}
+nav ul li{
+  list-style-type:none;
+  display: inline-block;
+  padding: 10px 20px ;
+  text-align: center;
+
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  align-items: center;
+}
+nav ul li a:hover{
+  color:antiquewhite;
+  transition: .3s ;
+}
